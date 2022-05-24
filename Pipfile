@@ -7,6 +7,9 @@ name = "pypi"
 django = "==4.0.4"
 djangorestframework = "==3.13.1"
 psycopg2-binary = "==2.9.3"
+whitenoise = "==5.1.0"
+gunicorn = "==19.9.0"
+environs = {version = "==8.0.0", extras = ["django"]}
 
 [dev-packages]
 
